@@ -1,0 +1,17 @@
+{
+  "name": "experiments",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@tabler/icons": "^2.37.0",
+    "cljs-dopeloop": "link:../cljs-dopeloop",
+    "dopeloop-ui": "link:../dopeloop-ui",
+    "nexusui": "^2.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "shadow-cljs": "^2.16.12",
+    "wavesurfer.js": "^7.3.2"
+  },
+  "dependencies": {
+    "soundfont2": "^0.4.0"
+  }
+}

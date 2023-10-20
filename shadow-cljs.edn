@@ -1,0 +1,11 @@
+{:source-paths ["src" "node_modules/dopeloop-ui/src"]
+ :dependencies [[reagent "1.1.0"]
+                [binaryage/devtools "1.0.7"]
+                [funcool/promesa "11.0.678"]
+                [applied-science/js-interop "0.4.2"]]
+ :dev-http {8000 "public/"}
+ :builds {:app {:target :browser
+                :output-dir "public/js"
+                :asset-path "js"
+                :modules {:main {:init-fn experiments.core/init}}
+                :release {:output-dir "build/js"}}}}
